@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+        * {
+    box-sizing: border-box;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.container {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    display: block;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .lesson-btn {
+            width: 300px;
+            padding: 15px 20px;
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+            background-color: #333;
+            border: 2px solid magenta;
+            border-radius: 10px;
+            text-decoration: none;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+
+        .lesson-btn:hover {
+            background-color: aqua;
+            color: black;
+            box-shadow: 0 0 20px #f7df1e;
+            transform: translateY(-5px);
+        } h1 {
+    color:magenta;
+}
+hr {
+    border: 3px solid darkgray;
+}
+
+body {
+
+  background: linear-gradient(135deg,black,gray, black); 
+  min-height: 100vh;
+  margin: 0;
+  color: white; 
+}
+ body {
+   
+    background-color: black;
+    padding: 20px;
+    margin: 10px;
+    min-height: 90vh;
+    /* دمج ألوان الإطار */
+    border: 10px solid;
+    border-image: linear-gradient(to right,magenta, blue, aqua, magenta, blue, aqua , magenta, aqua , blue, aqua , magenta , aqua, blue , magenta , blue) 1;
+} p {
+    font-size: 35px;
+}
+ h2 {
+    color: magenta;
+ } h5 {
+    color: aqua;
+ }
+  h3 {
+    color:magenta;
+ } h4 {
+    color: aqua;
+ } p {
+    color: aqua;
+ } table {
+    color: white;
+ } ul {
+    color: rgb(164, 7, 236);
+ } pre {
+    color:aqua;
+ } ul {
+    color:aqua;
+ } .emh {
+    font-size: 20px;
+ }
+  h1 {
+    font-size: 50px;
+} h5 {
+    font-size: 40px;
+} h6 {
+    color: blue;
+}
+ h6 {
+    font-size: 30px;
+} h1 {
+          box-shadow: 0 0 20px #f7df1e;
+} .cey {
+    color: red;
+    font-weight: bold; 
+    text-shadow: 1px 1px 2px black; 
+}
+</style>
+</head>
+<body>
+    <h2 align = "center"><em>الدرس الثالث</em></h2>
+<h1 align = "center"><em> (3) المتغيرات</em></h1>
+<h6 align = "center">ماسوف نتعلمه في هذا الدرس</h6>
+<pre align = "right">
+let متى نستخدم.
+const متى نستخدم.
+جزء الأحتراف.
+</pre>
+<hr>
+<h2 align = "center"> <ins> let اولا : متى نستخدم</ins></h2>
+<h3 align = "right"> كما تعلمنا الدرس السابق ان 
+    <pre>
+const للأعلان عن متغير لا يتغير نستخدم.
+let للأعلان عن متغير يتغير نستخدم.
+    </pre>
+</h3>
+<h4 align = "right">
+    <pre>
+     const ومتى نستخدم  let وفي هذا الدرس سوف نتعلم متى نستخدم 
+    </pre>
+</h4>
+<hr>
+<h5 align = "right"> <ins> أسئلة للتوضيح وليست أختباراً </ins> </h5>
+<hr>
+<h1 align = "center">المثال الأول</h1>
+<hr>
+<h2 align = "right">
+<pre>
+  <ins> let </ins>لو أردنا الأعلان عن عدد الطلاب في مدرسة نستخدم
+</pre>
+</h2>
+<hr>
+<h3 align = "center"><ins> ؟let لماذا أستخدمنا </ins></h3>
+<hr>
+<h4 align = "right">
+    <pre>
+شخص ما سوف يقول ولكن عدد الطلاب ثابت طوال السنة الدراسية؟
+ولكن عدد الطلاب يتغير كل سنة وايضا ليس عدد الطلاب ثابت طوال السنة بل منهم يخرج من التعليم ومنهم 
+من يُفصل ومنهم يُعيدون السنة فبالتالي طلاب السنة القادمة سوف يزدادون عن طلاب السنة الحالية
+فبالتالي عدد الطلاب يتغير من وقت الى حين   
+</pre>
+</h4>
+<hr>
+<h1 align = "center">المثال الثاني</h1>
+<hr>
+<h2 align = "right">
+    <pre>
+  <ins> let </ins> لو أردنا الأعلان عن عدد أيام السنة نستخدم
+</pre>
+</h2>
+<hr>
+<h3 align = "center"><ins> ؟let لماذا أستخدمنا </ins></h3>
+<hr>
+<h4 align = "right">
+    <pre>
+حيث نجد ان سنة ما 365 يوم 
+وسنة أخرى 366 يوم 
+فنلاحظ أن عدد أيام السنة ليست ثابتة
+ let وبما أن عدد أيام السنة تتغير فنعلن عنها بأستخدام 
+ نستخدمها في الأعلان عن متغير يتغير let لأن 
+</pre>
+</h4>
+<hr>
+<h2 align = "center"> <ins> const ثانياً : متى نستخدم</ins></h2>
+<hr>
+<h1 align = "center">المثال الثالث</h1>
+<hr>
+<h2 align = "right">
+    <pre>
+ <ins>const</ins> لو أردنا الأعلان عن تاريخ ميلاد طالب نستخدم
+    </pre>
+</h2>
+<hr>
+<h3 align = "center"><ins> ؟const لماذا أستخدمنا </ins></h3>
+<hr>
+<h4 align = "right">
+<pre>
+ببساطة بما أن تاريخ ميلاد الطالب لا يتغير أي ثابت 
+const فلذالك أستخدمنا 
+</pre>
+</h4>
+<hr>
+<h2 align = "center"> <ins>  ثانياً : جزء الأحتراف </ins></h2>
+<h1 align = "center" class="emh"><pre>
+جزء الأحتراف عبارة عن أكواد لو كتبتها في المحرر سيعطي خطأ
+وأيضا جزء الأحتراف يشمل ما الذي نكتبه وما الذي لا يجب أن نكتبه في المحرر
+سأعطي لك أخطاء شائعة يقع فيها المبرمجون المبتدئون
+</pre>
+</h1>
+<hr>
+<hr>
+<h2 align = "center">الخطأ الأول</h2>
+<h3 align = "center">وضع علامتان = = بهذا الشكل</h3>
+<hr>
+<h4 align = "right">الكود الخاطئ</h4>
+<pre align = "center">
+    <code>
+    let score == 10;
+    </code>
+</pre>
+<h4 align = "right">الكود الصحيح</h4>
+<pre align = "center">
+    <code>
+    let score = 10;
+    </code>
+</pre>
+<hr>
+<hr>
+<h2 align = "center">الخطأ الثاني</h2>
+<h3 align = "center">وضع علامة : في نهاية الكود</h3>
+<hr>
+<h4 align = "right">الكود الخاطئ</h4>
+<pre align = "center">
+    <code>
+        let score = 10:
+    </code>
+</pre>
+<h4 align = "right">الكود الصحيح</h4>
+<pre align = "center">
+    <code>
+        let score = 10;
+    </code>
+</pre>
+<hr>
+<hr>
+<h2 align = "center">الخطأ الثالث</h2>
+<h3 align = "center">وضع مسافات بين حروف أو كلمات المتغير</h3>
+<hr>
+<h4 align = "right"> (1) الكود الخاطئ</h4>
+<h5 align = "right">وضع مسافات بين كلمات المتغير</h5>
+<pre align = "center">
+    <code>
+        let your score = 10;
+    </code>
+</pre>
+<h4 align = "right"> (1) الكود الصحيح</h4>
+<pre align = "center">
+    <code>
+        let yourscore = 10;
+    </code>
+</pre>
+<br>
+<hr>
+<br>
+<h4 align = "right"> (2) الكود الخاطئ</h4>
+<h5 align = "right">وضع مسافات بين حروف المتغير</h5>
+<pre align = "center">
+    <code>
+        let sc ore = 10;
+    </code>
+</pre>
+<h4 align = "right"> (2) الكود الصحيح</h4>
+<pre align = "center">
+    <code>
+        let score = 10;
+    </code>
+</pre>
+<hr>
+<hr>
+<h2 align = "center">الخطأ الرابع</h2>
+<h3 align = "center">في الأعلان عن نفس المتغير let أستخدام كلمة </h3>
+<hr>
+<h4 align = "right">الكود الخاطئ</h4>
+<pre align = "center">
+    <code>
+        let score = 10;
+        <ins class="cey">let</ins> score = 11;
+    </code>
+</pre>
+<h4 align = "right">الكود الصحيح</h4>
+<pre align = "center">
+    <code>
+        let score = 10;
+        score = 11;
+    </code>
+</pre>
+<hr>
+<hr>
+<br>
+<hr>
+<hr> 
+<br>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

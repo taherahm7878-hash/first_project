@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+        * {
+    box-sizing: border-box;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.container {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    display: block;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .lesson-btn {
+            width: 300px;
+            padding: 15px 20px;
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+            background-color: #333;
+            border: 2px solid magenta;
+            border-radius: 10px;
+            text-decoration: none;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+
+        .lesson-btn:hover {
+            background-color: aqua;
+            color: black;
+            box-shadow: 0 0 20px #f7df1e;
+            transform: translateY(-5px);
+        } h1 {
+    color:magenta;
+}
+hr {
+    border: 3px solid darkgray;
+}
+body {
+
+  background: linear-gradient(135deg,black,gray, black); 
+  min-height: 100vh;
+  margin: 0;
+  color: white; 
+}
+
+ body {
+   
+    background-color: black;
+    padding: 20px;
+    margin: 10px;
+    min-height: 90vh;
+    /* دمج ألوان الإطار */
+    border: 10px solid;
+    border-image: linear-gradient(to right,magenta, blue, aqua, magenta, blue, aqua , magenta, aqua , blue, aqua , magenta , aqua, blue , magenta , blue) 1;
+}
+ h2 {
+    color: magenta;
+ } h5 {
+    color: aqua;
+ }
+  h3 {
+    color:magenta;
+ } h4 {
+    color: aqua;
+ } p {
+    color: aqua;
+ } table {
+    color: white;
+ } ul {
+    color: rgb(164, 7, 236);
+ } pre {
+    color:aqua;
+ } ul {
+    color:aqua;
+ }
+  h1 {
+    font-size: 50px;
+} h5 {
+    font-size: 40px;
+} h6 {
+    color: blue;
+}
+ h6 {
+    font-size: 30px;
+}  h1 {
+          box-shadow: 0 0 20px #f7df1e;
+}
+</style>
+</head>
+<body>
+    <h2 align = "center"><em>الدرس الثاني</em></h2>
+<h1 align = "center"><em> (2) المتغيرات</em></h1>
+<h6 align = "center">ماسوف نتعلمه في هذا الدرس</h6>
+<pre align = "right">
+let ما هي.
+const ما هي.
+let و const ما الفرق بين.
+</pre>
+<hr>
+<h2 align = "center"> <ins> let اولا :  ما هي </ins></h2>
+    <h3 align = "right">تستخدم للأعلان عن متغيرات تتغير </h3>
+<pre align = "right"><h6>أمثلة على أشياء تتغير</h6>
+عمر الأنسان.
+طول الأنسان.
+وزن الأنسان.
+السنة الدراسية.
+      وهكذا
+</pre>
+      <hr>
+<h4 align = "center">فنلاحظ</h4>
+<pre align = "right">
+ عمر الأنسان يتغير مع مرور الوقت وكذالك
+   2023 طوله ووزنه فمثلا فلان في سنة 
+   كان طوله 134سم
+   ولكن في سنة 2026 اصبح طوله 144سم وبما ان المتغير (طول الأنسان , وعمره , ووزنه , وسنته الدراسية) 
+ let ليس ثابتاً يتغير بمرور الوقت فنعلن عن هذا المتغير بأستخدام 
+</pre>
+<hr>
+<h3 align = "center">أمثلة</h3>
+<hr>
+<pre align = "center">
+    <code>
+ let height = 134;
+ height = 144;
+ <br>
+ let age = 13;
+ age = 15;
+ <br>
+ let weight = 25;
+ weight = 24; 
+    </code>
+</pre>
+
+<hr>
+<hr>
+<h3 align = "right">let لاحظ ان عند تغير قيمة المتغير نكتب اسم المتغير بدون
+</h3>
+<hr>
+<hr>
+<h2 align = "center"> <ins> const ثانياً :  ما هي </ins></h2>
+<h3 align = "right">تستخدم للأعلان عن متغير لا يتغير</h3>
+<pre align = "right"><h6>أمثلة على أشياء لا تتغير</h6>
+   الرقم القومي.
+   فصيلة الدم.
+   عدد أيام الأسبوع.
+</pre>
+<hr>
+<h4 align = "center">فنلاحظ</h4>
+<pre align = "right">
+    يوم عيد الميلاد ثابت لا يتغير وفصيلة الدم أيضاً لا تتغير
+    وعدد أيام الأسبوع ثابتة لا تتغير
+</pre>
+<hr>
+<h3 align = "center">أمثلة</h3>
+<pre align = "center">
+    <code>
+        const weekDays = 7;
+        <br>
+        const nationalNumber = 31009022404536;
+    </code>
+</pre>
+<hr>
+<hr>
+<h3 align = "right"> لا يمكن تغيره const لاحظ لو أعطيت للمتغير قيمة وانت أعلنت عنه بواسطة </h3>
+<hr>
+<hr>
+<h2 align = "center"> <ins> let و const ثالثاً : الفرق بين </ins></h2>
+<h3 align = "right"> let عند الأعلان عن متغير يتغير نستخدم</h3>
+<h3 align = "right">const عند الأعلان عن متغير لا يتغير نستخدم</h3>
+<hr>
+<hr>
+     <pre style="text-align:center;"> 
+ <a href="lesson3.html" class="lesson-btn"> (3) المتغيرات</a>
+   
+     <br> 
+</body>
+</html>
